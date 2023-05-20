@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet" />
+    <title>Learning HTML and CSS</title>
+  </head>
+  <body>
+    <h1>JavaScript is fun, but so is HTML and CSS</h1>
+    <h3>HTML</h3>
+    <p class="first">
+      You can learn JavaScript without HTML and CSS, but for DOM manipulation
+      it's useful to have some basic ideas about HTML and CSS. The head is used
+      for the settings of the page (also for Style -> for CSS). In HTML some
+      elements can have attributes and these attributes describe elements. Href
+      is an attribute that belongs only to a (anchor) element. Src is an
+      attribute that belongs only to the img (image) element. The anchor element
+      is an inline element. Classes and id's are attributes that can be used in
+      any element. Id's need to be unique. Classes can be used over and over. In
+      CSS and HTML no cammelCase, but test-test. Boxes = div. You can find out
+      more about HTML
+      <a
+        href="https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_link_target"
+        target="_blank"
+      >
+        here</a
+      >
+    </p>
+    <h3>CSS</h3>
+    <p class="second">
+      We use CSS to style elements and to create a layout for the overall page.
+      We can write CSS in the HTML document using the STYLE element. Style is
+      not for the visible content on the page, so it should be in the head.To
+      style elements we need to first select them. There are multiple selectors
+      in CSS. The most basic one is the element selector (we can select with it
+      all elements of a certain type). But it is better to write css in a
+      different file. With the star selector we can select all the elements on a
+      page.
+    </p>
+    <h4>The box model (CSS)</h4>
+    <p>
+      The main factor that defines how elements are displayed on a webpage and
+      also how they are sized. Block elements create a box around them (ex: h2).
+      Inline elements only occupy the text itself (ex a -> anchor -> href).
+    </p>
+
+    <img id="imagine" src="html-css-beginners.jpg" />
+    <form id="your-name">
+      <h2>Your name here</h2>
+      <p class="first">Please fill in this form :)</p>
+      <input type="text" placeholder="Your name" />
+      <button>OK!</button>
+    </form>
+  </body>
+</html>
